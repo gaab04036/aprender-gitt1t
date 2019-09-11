@@ -1,0 +1,210 @@
+ 
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#painel {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    padding: 0.5em 0;
+    font-size: 1.6em;
+    color: #FFEC02;
+    text-shadow: 
+    -1px -1px 0 #B70AF5,
+    1px -1px 0 #b70af5,
+    -1px  1px 0 #b70af5,
+    1px  1px 0 #b70af5;
+}
+
+h2 {
+    padding: 0.5em 0;
+    font-size: 60px;
+    color: #FFEC02;
+    text-shadow: 
+    -1px -1px 0 #B70AF5,
+    1px -1px 0 #b70af5,
+    -1px  1px 0 #b70af5,
+    1px  1px 0 #b70af5;
+}
+
+
+
+
+
+
+h4 {
+    font-size: 2em;
+    font-family: 'Fredoka One', cursive;
+}
+
+/******************************************************************************
+INICIO NAV 
+****************************************************************************/
+nav {
+    background-color: #B70AF5; 
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3em;
+    height: 2.5em;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+nav a {
+    text-decoration: none;
+    color:whitesmoke; 
+    font-weight: bold;
+    padding: .30em 1em;
+    font-family: 'Rancho', cursive;
+}
+
+
+nav a:hover {
+    background-color: #F4C70B;
+    color: #fff;
+    box-shadow: 0 2px pink;
+    border: 5px double #B70AF5;
+    
+}
+
+footer {
+    background-color: #F4C70B;
+    
+}
+
+
+#logo-area {
+    background-image: url(img/imagem_eventos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 60px
+    
+}
+
+/********************************************************************************
+FIM NAV 
+***********************************************************************************/
+
+.box-status-eventos {
+    width: 30%;
+    padding-top: .5em;
+    text-align: center;
+}
+
+.box-status-eventos > p {
+    font-size: 2em;
+    padding: 0.5em 0 0 0;
+}
+
+.box-status-eventos.reprovados {
+    background-color: #E85B43;
+}
+
+.box-status-eventos.reprovados p {
+    font-size: 2em;
+}
+
+.box-status-eventos.aprovados {
+    background-color:#00DE19;
+}
+
+.box-status-eventos.aprovados p {
+    font-size: 2em;
+}
+
+
+
+.box-status-eventos.pendentes {
+    background-color: #FF984A;
+}
+
+.box-status-eventos.pendentes p {
+    font-size: 2em;
+}
+
+table {
+    text-align: center;
+    color: #A210E8;
+    border: 1px dashed purple;
+    width: 100%;
+    padding: 5px;
+    word-break: normal;
+    font-size: 25px;
+    font-family:'Fredoka One', cursive;
+}
+
+table th {
+    background-color: #f4c70b;
+}
+
+table a {
+    text-decoration: none;
+    color: #ff9933;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+tfoot td {
+    text-align: center;
+    color: #A210E8;
+    background-color: #f4c70b;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(purple, white);
+}
+
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    color: #F4C70B;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+h2 {
+    font-family: 'Rancho', cursive;
+    font-size: 40px;
+}
+
+table {
+    margin-bottom: 10em;
+    
+}
+
+@media (max-width: 625px) {
+    main {
+        width: 90%;
+    }
+    
+    h4 {
+        font-size: 1em;
+    }
+    
+    
+}

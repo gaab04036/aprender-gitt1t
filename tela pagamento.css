@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Calibri', 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Rancho', cursive;
+}
+
+section {
+    text-align: center
+}
+
+section h2 {
+    padding: 20px 0;
+}
+
+#logo-rltp p {
+    display: flex;
+    justify-content: center;
+}
+
+#logo-area h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#logo-area img {
+    align-items: center
+}
+
+* input {
+    border-radius: 2em;
+}
+
+/**********************************************************************************
+INICIO NAV 
+**********************************************************************************/
+nav {
+    background-color: #b70af5;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3em;
+    height: 2.5em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a:hover {
+    background-color: #F4C70B;
+    color: #fff;
+    box-shadow: 0 2px pink;
+    border: 5px double #B70AF5;
+    
+}
+
+footer {
+    background-color: #F4C70B
+}
+
+
+
+/*******************************************************************************************
+FIM NAV 
+*******************************************************************************************/
+
+#logo-area {
+    background-image: url(img/imagem_eventos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 60px
+}
+
+nav {
+    font-family: 'Rancho', cursive;
+}
+
+#logo {
+    height: 20%;
+    width: 20%;
+}
+
+#pagamento {
+    font-family: 'Rancho', cursive;
+    font-size: 30px
+}
+
+input, form select {
+    width: 20%;
+    height: 25px;
+    border: none;
+    text-align: center;
+    padding: 0 2px;
+}
+
+h1 h2, h3, h4 {
+    color: #B70AF5 ; 
+}
+
+footer{
+    background-color: #F4C70B;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient( purple 40%, white);
+    padding: 0px
+}
+
+h4 {
+    background-color:  #F4C70B;
+    text-align: center;
+}
+
+h1 b {
+    color: #F4C70B;
+}
+
+h2 {
+    text-align: center;
+    
+}
